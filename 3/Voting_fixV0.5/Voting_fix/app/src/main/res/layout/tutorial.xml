@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back11"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TUTORIAL UNTUK MEMILIH :"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/hitam"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="1.Klik Button (VOTTING)"
+        android:textColor="@color/hitam" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="2.Klik salah satu foto dari kedua kandidat "
+        android:textColor="@color/hitam"
+        />
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="3.Akan tampil visi dan misi dari calon tersebut"
+        android:textColor="@color/hitam"/>
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="4.Jika ingin memilih calon tersebut,klik Button (VOTE)"
+        android:textColor="@color/hitam"/>
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="5.Selamat,Anda sudah berhasil memilih"
+        android:textColor="@color/hitam"/>
+
+</LinearLayout>
+

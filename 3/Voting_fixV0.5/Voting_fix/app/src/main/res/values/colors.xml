@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mas">#FFD700</color>
+    <color name="kuning">#FFFF00</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="merah">#FF0000</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="hitam">#000000</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="biru">#0000FF</color>
+    <color name="coklat">#A52A2A</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="birutua">#00008B</color>
+    <color name="boro">#DCDCDC</color>
+    <color name="abu">#808080</color>
+    <color name="hijau">#008000</color>
+    <color name="birumuda">#ADE8E6</color>
+    <color name="birulangit">#87CEFA</color>
+    <color name="kuningmuda">#FFFFE0</color>
+    <color name="magenta">#FFFFE0</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="azure">#F0FFFF</color>
+
+
+
+</resources>

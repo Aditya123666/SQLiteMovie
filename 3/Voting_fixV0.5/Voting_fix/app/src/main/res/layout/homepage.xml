@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back11"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_marginLeft="25dp"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/imtut"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/btntutor"
+            android:layout_marginLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/birumuda"
+            android:hint="TUTORIAL"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/itutor"
+            android:layout_marginLeft="25dp"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/imvote"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/btnvotting"
+            android:layout_marginLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/birumuda"
+            android:hint="VOTTING"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/itutor"
+            android:layout_marginLeft="25dp"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/imcount"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/btnquick"
+            android:layout_marginLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/birumuda"
+            android:hint="QUICK QOUNT"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/hitam"
+            android:textSize="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Log out"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnlog"/>
+    </LinearLayout>
+
+</LinearLayout>

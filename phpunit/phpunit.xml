@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/auload.php"
+		colors="true"
+		verbose="true"
+		stopOnFailure="false">
+	<testsuites>
+		<testsuites name="Test suite">
+			<directory>tests</directory>
+		</testsuites>
+	</testsuites>
+</phpunit>				

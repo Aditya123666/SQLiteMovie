@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back11">
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="No.1"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/hitam"
+
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/pimen1"
+        android:text="Hello World!" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:background="@color/putih"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        >
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" VISI"
+                android:textColor="@color/hitam"
+                />
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:textSize="13dp"
+                android:layout_marginLeft="2dp"
+                android:text="Menjadikan HIMATIF sebagai himpunan mahasiswa yang satu, kompak, berkualitas, dan aktif serta berperan dalam membantu mahasiswa jurusan TI pada khususnya untuk akademik maupun non-akademik"
+                android:textColor="@color/hitam"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="180dp"
+            android:background="@color/hitam"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="4.5"
+            >
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" MISI"
+                android:textColor="@color/hitam"
+                />
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Memaksimalkan dan menjalankan program kerja"
+                android:textColor="@color/hitam"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="2.Menjembatani komunikasi baik antar anggota maupun pihak jurusan"
+                android:textColor="@color/hitam"
+                />
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="3.Membasmi para kaum jomblo menyedihkan"
+                android:textColor="@color/hitam"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btnvote"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpass"
+        android:backgroundTint="@color/birumuda"
+        android:hint="VOTE"
+        android:textColorHint="#000000" />
+</LinearLayout>
